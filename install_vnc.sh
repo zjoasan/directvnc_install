@@ -9,8 +9,6 @@ chmod +x /home/osmc/vnc-client/vnc_watchdog.sh 2>&1
 sudo cp -f /home/osmc/root/.directfbrc /root/
 rm -r -f /home/osmc/root
 rm -f install_vnc.zip 2>&1
-dialog  --title "Last touches" --msgbox "\nTime to edit vnc_ip_server.sh to change whitch IP to connect to.\nRunning 'nano vnc_ip_server.sh'\n "  11 70
-nano /home/osmc/vnc-client/vnc_ip_server.sh
 xbmc-send -a "UpdateLocalAddons" >/dev/null
 dialog --title "Installation finnished!" --msgbox "\nThank you for using my installer\n"  11 70
 exit
