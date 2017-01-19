@@ -9,5 +9,4 @@ It lets you configure server ip and password during installation.
 
 Attention: It takes up to 1 minute to show after you started it from Kodi.
 
-To change ip/password to connect to, you have to edit:
-/home/osmc/vnc-client/vnc_ip_server.sh
+Each time you launch the addon, you get to input IP and password for your connection
